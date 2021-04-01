@@ -1,0 +1,39 @@
+
+/******************Carpeta Base******************/
+
+@import 'reset';
+
+@import 'subtitulo';
+
+@import 'extenders';
+
+@import 'variables';
+
+
+/******************Carpeta Componentes******************/
+
+
+/*tanda-2016*/
+@import '../componentes/card16';
+
+
+/*Secciones del 2017 al 2021 */
+
+@import '../componentes/card17a21';
+
+/*Seccion Vismedia */
+@import '../componentes/vismedialogo';
+
+/*Footer*/
+
+@import '../componentes/footer';
+
+
+/*Botones Más información */
+
+@import '../componentes/botones';
+
+
+
+
+

@@ -1,0 +1,52 @@
+/*Peimwe Anime Doblado en 2016 
+Por crunchyroll ELFEN LIED */
+
+.tanda-2016 {
+    @extend %style-tanda;
+}
+
+.sub-titulo-box {
+
+    height: auto;
+
+    // width: 30%;
+
+    margin: 0 auto;
+
+    .sub-titulo-elfenlied {
+        font-size: 30%;
+
+    }
+
+}
+
+
+
+
+
+
+.card-16 {
+    // width: 40%;
+    height: auto;
+
+    padding: 4%;
+    margin: 0 auto;
+
+
+
+    background-color: transparent;
+
+    .card-body {
+
+        .card-title-elfenlied {
+
+            @extend %style-title-cards;
+        }
+        .card-text-elfenlied {
+
+            @extend %style-text-cards;
+
+        }
+    }
+
+}

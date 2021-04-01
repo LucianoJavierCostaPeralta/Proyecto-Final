@@ -1,0 +1,77 @@
+/*Styls a nav-links */
+
+@import 'variables' ; 
+
+
+
+/*Menu */
+
+%style-a-menu {
+    transition: all 1s;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 15px;
+
+    color: nth($colores , 3  ) !important;
+ 
+    padding: 5px;
+
+    margin: 0px 10px;
+
+    text-decoration: none;
+}
+
+/*Style sections= tanda de anime año del 2016 a 2021 */
+
+%style-tanda {
+    padding-top: $pading-80px  ;
+
+    border-bottom: 2px solid  nth($colores , 3  );
+
+    background-color:rgb(20, 139, 139);
+}
+
+
+/*Style-sub-titulos*/
+
+%style-sub-titulo {
+
+    font-size: 30%;
+
+    font-style: normal;
+
+
+
+    color: nth($colores , 1  );
+
+
+    margin-left: 8%;
+
+}
+
+/*Style - title - cards */
+
+%style-title-cards {
+
+    font-family: 'Roboto', sans-serif  !important;
+    font-size: 44px  !important;
+   color : nth($colores , 1  ) !important;
+
+  
+
+
+   
+}
+
+
+/*Style-text-cards */
+
+
+%style-text-cards {
+    font-style: normal    !important;
+    font-size: 25px   !important;
+    color : nth($colores , 2 )  !important;
+
+}
+

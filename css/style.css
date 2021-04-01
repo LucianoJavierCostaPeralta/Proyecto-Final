@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/******************Carpeta Base******************/
+/*Reseteando los valores a 0*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Sub titulos " Tanda ' año ' */
+.stitulo h2 .numero {
+  color: whitesmoke;
+}
+
+/*color de los numeros 2016-2017-2018-2019-2020-2021*/
+/*Styls a nav-links */
+/*Menu */
+/*Style sections= tanda de anime año del 2016 a 2021 */
+.tanda-2017,
+.tanda-2018,
+.tanda-2019,
+.tanda-2020, .tanda-2016 {
+  padding-top: 100px;
+  border-bottom: 2px solid #f78b24;
+  background-color: #148b8b;
+}
+
+/*Style-sub-titulos*/
+.stitulo {
+  font-size: 30%;
+  font-style: normal;
+  color: black;
+  margin-left: 8%;
+}
+
+/*Style - title - cards */
+.card-17 .card-body .card-title-17, .card-16 .card-body .card-title-elfenlied {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 44px !important;
+  color: black !important;
+}
+
+/*Style-text-cards */
+.card-17 .card-body .card-text-17, .card-16 .card-body .card-text-elfenlied {
+  font-style: normal !important;
+  font-size: 25px !important;
+  color: white !important;
+}
+
+/******************Carpeta Componentes******************/
+/*tanda-2016*/
+/*Peimwe Anime Doblado en 2016 
+Por crunchyroll ELFEN LIED */
+.sub-titulo-box {
+  height: auto;
+  margin: 0 auto;
+}
+.sub-titulo-box .sub-titulo-elfenlied {
+  font-size: 30%;
+}
+
+.card-16 {
+  height: auto;
+  padding: 4%;
+  margin: 0 auto;
+  background-color: transparent;
+}
+/*Secciones del 2017 al 2021 */
+.card-17 {
+  height: auto;
+  padding: 4%;
+  background-color: transparent !important;
+}
+/*Seccion Vismedia */
+.viz {
+  height: auto;
+  padding-top: 100px;
+  background-color: #7fb4b4;
+}
+.viz .logox {
+  height: auto;
+  width: 25%;
+}
+.viz .carousel {
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+/*Footer*/
+/*Footer*/
+.sociales {
+  height: auto;
+  border-top: 2px solid #f78b24;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: black;
+}
+.sociales .sociales-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.sociales .sociales-box .img-sociales {
+  height: auto;
+  width: 6em;
+  padding: 30px;
+  transition: all 0.5s;
+}
+.sociales .sociales-box .img-sociales:hover {
+  transform: scale(1.3);
+}
+
+/*Menu  Redes Sociales */
+/*Botones Más información */
+.mas-informacion {
+  background-color: black !important;
+  color: #f78b24 !important;
+  border: 0% solid transparent !important;
+  transition: all 1s;
+}
+.mas-informacion:hover {
+  background-color: #f78b24 !important;
+  color: black !important;
+}
+
+/*Magia de nico en el body */
+body {
+  overflow-x: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */

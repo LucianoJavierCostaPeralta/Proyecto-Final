@@ -1,0 +1,22 @@
+/*Sub titulos " Tanda ' año ' */
+.stitulo {
+
+    @extend %style-sub-titulo ;
+
+
+    h2 {
+
+        .numero {
+
+            color: whitesmoke;
+        }
+    }
+
+
+
+}
+
+
+
+
+/*color de los numeros 2016-2017-2018-2019-2020-2021*/
