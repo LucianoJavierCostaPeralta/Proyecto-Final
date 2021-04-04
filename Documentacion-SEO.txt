@@ -1,0 +1,19 @@
+Mi aplicación de SEO , em eñ proyecto es el siguiente .
+
+#Meta Name : 
+*Description : Coloco la descripción de  mi sitio web .
+
+*Keyword : Palabras claves  para , poder que sea mas optima la busqueda de mi sitio web .
+
+ 
+
+#Open Graph :
+
+type - description - image - site name -  autor  - url .
+
+#Alt 
+
+Comente los botones de las cards , para tener un equilibrio entre enlaces internos y externos 
+
+
+
