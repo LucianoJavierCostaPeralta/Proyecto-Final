@@ -20,6 +20,8 @@
     margin: 0px 10px;
 
     text-decoration: none;
+
+   
 }
 
 %style-menu-hover {
@@ -94,15 +96,11 @@
 }
 
 %style-navbar {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    z-index: 3;
+    
+
+
+   
+    
     border-bottom: 3px solid nth($colores, 3) !important;
 
 }

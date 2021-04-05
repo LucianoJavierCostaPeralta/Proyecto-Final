@@ -3,15 +3,18 @@
 
    @extend %style-navbar  ; 
 
+   /*menu hamburguesa */
+ 
+
    .burger {
 
-    transition: all 0.5s;
+    transition: all 1s;
+
 
         &:hover {
-            background-color: nth($colores , 3  ) !important ; 
+            background-color: nth($colores  , 3 )!important;
         }
    }
-
 
     .titulo {
         @extend %style-title ;

@@ -71,15 +71,6 @@
 }
 
 .navbar {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  z-index: 3;
   border-bottom: 3px solid #f78b24 !important;
 }
 
@@ -91,8 +82,11 @@
 
 /******************Carpeta Componentes******************/
 /*navbar styls */
+.navbar {
+  /*menu hamburguesa */
+}
 .navbar .burger {
-  transition: all 0.5s;
+  transition: all 1s;
 }
 .navbar .burger:hover {
   background-color: #f78b24 !important;
