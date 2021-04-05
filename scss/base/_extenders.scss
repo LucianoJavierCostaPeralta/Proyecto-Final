@@ -1,6 +1,6 @@
 /*Styls a nav-links */
 
-@import 'variables' ; 
+@import 'variables';
 
 
 
@@ -11,10 +11,10 @@
 
     font-family: 'Roboto', sans-serif;
 
-    font-size: 15px;
+    font-size: 13px;
 
-    color: nth($colores , 3  ) !important;
- 
+    color: nth($colores, 3) !important;
+
     padding: 5px;
 
     margin: 0px 10px;
@@ -22,14 +22,19 @@
     text-decoration: none;
 }
 
+%style-menu-hover {
+    background-color:nth($colores , 3 )!important;
+    color: nth($colores , 1  ) !important;
+}
+
 /*Style sections= tanda de anime año del 2016 a 2021 */
 
 %style-tanda {
-    padding-top: $pading-80px  ;
+    padding-top: $pading-80px;
 
-    border-bottom: 2px solid  nth($colores , 3  );
+    border-bottom: 2px solid nth($colores, 3);
 
-    background-color:rgb(20, 139, 139);
+    background-color: rgb(20, 139, 139);
 }
 
 
@@ -43,7 +48,7 @@
 
 
 
-    color: nth($colores , 1  );
+    color: nth($colores, 1);
 
 
     margin-left: 8%;
@@ -54,14 +59,14 @@
 
 %style-title-cards {
 
-    font-family: 'Roboto', sans-serif  !important;
-    font-size: 44px  !important;
-   color : nth($colores , 1  ) !important;
-
-  
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 44px !important;
+    color: nth($colores, 1) !important;
 
 
-   
+
+
+
 }
 
 
@@ -69,9 +74,9 @@
 
 
 %style-text-cards {
-    font-style: normal    !important;
-    font-size: 25px   !important;
-    color : nth($colores , 2 )  !important;
+    font-style: normal !important;
+    font-size: 25px !important;
+    color: nth($colores, 2) !important;
 
 }
 
@@ -85,6 +90,25 @@
 
     align-items: center;
 
-    margin:  0 auto;
+    margin: 0 auto;
 }
 
+%style-navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 3;
+    border-bottom: 3px solid nth($colores, 3) !important;
+
+}
+
+%style-title {
+    color: nth($colores, 3) !important;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 30px;
+}

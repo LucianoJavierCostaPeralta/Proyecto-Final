@@ -1,0 +1,40 @@
+/*navbar styls */
+.navbar  {
+
+   @extend %style-navbar  ; 
+
+   .burger {
+
+    transition: all 0.5s;
+
+        &:hover {
+            background-color: nth($colores , 3  ) !important ; 
+        }
+   }
+
+
+    .titulo {
+        @extend %style-title ;
+    }
+
+ 
+
+    .logo {
+        transform: scale(0.7);
+    }
+}
+
+.navbar-nav {
+
+    .nav-item {
+
+        .nav-link{
+
+            @extend %style-a-menu ; 
+
+            &:hover {
+                @extend %style-menu-hover ; 
+            }
+        }
+    }
+}
