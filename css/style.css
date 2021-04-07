@@ -42,7 +42,7 @@
 
 /*Style-sub-titulos*/
 .stitulo {
-  font-size: 30%;
+  font-size: 20%;
   font-style: normal;
   color: black;
   margin-left: 8%;
@@ -51,14 +51,14 @@
 /*Style - title - cards */
 .card-17 .card-body .card-title-17, .card-16 .card-body .card-title-elfenlied {
   font-family: "Roboto", sans-serif !important;
-  font-size: 44px !important;
+  font-size: 40px !important;
   color: black !important;
 }
 
 /*Style-text-cards */
 .card-17 .card-body .card-text-17, .card-16 .card-body .card-text-elfenlied {
   font-style: normal !important;
-  font-size: 25px !important;
+  font-size: 23px !important;
   color: white !important;
 }
 
@@ -70,7 +70,7 @@
   margin: 0 auto;
 }
 
-.navbar {
+header .navbar {
   top: 0%;
   z-index: 6;
   width: 100%;
@@ -78,25 +78,28 @@
   border-bottom: 3px solid #f78b24 !important;
 }
 
-.navbar .titulo {
+header .navbar .titulo {
   color: #f78b24 !important;
   font-family: "Maven Pro", sans-serif;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 /******************Carpeta Componentes******************/
 /*navbar styls */
-.navbar {
+header {
+  width: 100%;
+}
+header .navbar {
   /*menu hamburguesa */
 }
-.navbar .burger {
+header .navbar .burger {
   transition: all 1s;
 }
-.navbar .burger:hover {
+header .navbar .burger:hover {
   background-color: #f78b24 !important;
 }
-.navbar .logo {
-  transform: scale(0.7);
+header .navbar .logo {
+  width: 35px;
 }
 
 /*tanda-2016*/

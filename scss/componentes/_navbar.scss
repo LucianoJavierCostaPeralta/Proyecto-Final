@@ -1,29 +1,33 @@
 /*navbar styls */
-.navbar  {
+header {
+    width: 100%;
 
-   @extend %style-navbar  ; 
+    .navbar {
 
-   /*menu hamburguesa */
- 
+        @extend %style-navbar;
 
-   .burger {
-
-    transition: all 1s;
+        /*menu hamburguesa */
 
 
-        &:hover {
-            background-color: nth($colores  , 3 )!important;
+        .burger {
+
+            transition: all 1s;
+
+
+            &:hover {
+                background-color: nth($colores, 3) !important;
+            }
         }
-   }
 
-    .titulo {
-        @extend %style-title ;
-    }
+        .titulo {
+            @extend %style-title;
+        }
 
- 
 
-    .logo {
-        transform: scale(0.7);
+
+        .logo {
+            width: 35px;
+        }
     }
 }
 
@@ -31,12 +35,12 @@
 
     .nav-item {
 
-        .nav-link{
+        .nav-link {
 
-            @extend %style-a-menu ; 
+            @extend %style-a-menu;
 
             &:hover {
-                @extend %style-menu-hover ; 
+                @extend %style-menu-hover;
             }
         }
     }
