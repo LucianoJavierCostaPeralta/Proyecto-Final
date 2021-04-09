@@ -42,10 +42,10 @@
 
 /*Style-sub-titulos*/
 .stitulo {
-  font-size: 20%;
+  font-size: 18%;
   font-style: normal;
   color: black;
-  margin-left: 8%;
+  margin: 0 auto;
 }
 
 /*Style - title - cards */
@@ -72,8 +72,9 @@
 
 header .navbar {
   top: 0%;
-  z-index: 6;
-  width: 100%;
+  z-index: 5;
+  right: 0;
+  left: 0;
   position: fixed;
   border-bottom: 3px solid #f78b24 !important;
 }
