@@ -90,9 +90,6 @@ header .navbar .titulo {
 header {
   width: 100%;
 }
-header .navbar {
-  /*menu hamburguesa */
-}
 header .navbar .burger {
   transition: all 1s;
 }
@@ -132,9 +129,12 @@ Por crunchyroll ELFEN LIED */
   padding-top: 100px;
   background-color: #7fb4b4;
 }
+.viz div h2 {
+  width: 40%;
+}
 .viz .logox {
   height: auto;
-  width: 30%;
+  width: 40%;
 }
 .viz .carousel {
   height: auto;
