@@ -46,6 +46,7 @@
   font-style: normal;
   color: black;
   margin: 0 auto;
+  padding: 4%;
 }
 
 /*Style - title - cards */
@@ -137,6 +138,7 @@ Por crunchyroll ELFEN LIED */
   height: auto;
   padding-top: 20px;
   padding-bottom: 40px;
+  padding: 4%;
 }
 
 /*Footer*/
