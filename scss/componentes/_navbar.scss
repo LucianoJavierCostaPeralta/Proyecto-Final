@@ -1,47 +1,36 @@
 /*navbar styls */
 header {
-    width: 100%;
+  width: 100%;
 
-    .navbar {
+  .navbar {
+    @extend %style-navbar;
 
-        @extend %style-navbar;
+    .burger {
+      transition: all 1s;
 
-      
-
-
-        .burger {
-
-            transition: all 1s;
-
-
-            &:hover {
-                background-color: nth($colores, 3) !important;
-            }
-        }
-
-        .titulo {
-            @extend %style-title;
-        }
-
-
-
-        .logo {
-            width: 35px;
-        }
+      &:hover {
+        background-color: nth($colores, 3) !important;
+      }
     }
+
+    .titulo {
+      @extend %style-title;
+    }
+
+    .logo {
+      width: 35px;
+    }
+  }
 }
 
 .navbar-nav {
+  .nav-item {
+    .nav-link {
+      @extend %style-a-menu;
 
-    .nav-item {
-
-        .nav-link {
-
-            @extend %style-a-menu;
-
-            &:hover {
-                @extend %style-menu-hover;
-            }
-        }
+      &:hover {
+        @extend %style-menu-hover;
+      }
     }
+  }
 }

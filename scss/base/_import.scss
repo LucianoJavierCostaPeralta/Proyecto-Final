@@ -1,42 +1,31 @@
-
 /******************Carpeta Base******************/
 
-@import 'reset';
+@import "reset";
 
-@import 'subtitulo';
+@import "subtitulo";
 
-@import 'extenders';
+@import "extenders";
 
-@import 'variables';
-
+@import "variables";
 
 /******************Carpeta Componentes******************/
 
-
-@import '../componentes/navbar';
-
+@import "../componentes/navbar";
 
 /*tanda-2016*/
-@import '../componentes/card16';
-
+@import "../componentes/card16";
 
 /*Secciones del 2017 al 2021 */
 
-@import '../componentes/card17a21';
+@import "../componentes/card17a21";
 
 /*Seccion Vismedia */
-@import '../componentes/vismedialogo';
+@import "../componentes/vismedialogo";
 
 /*Footer*/
 
-@import '../componentes/footer';
-
+@import "../componentes/footer";
 
 /*Botones Más información */
 
-@import '../componentes/botones';
-
-
-
-
-
+@import "../componentes/botones";

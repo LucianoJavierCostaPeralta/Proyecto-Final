@@ -51,14 +51,14 @@
 /*Style - title - cards */
 .card-17 .card-body .card-title-17, .card-16 .card-body .card-title-elfenlied {
   font-family: "Roboto", sans-serif !important;
-  font-size: 40px !important;
+  font-size: 30px !important;
   color: black !important;
 }
 
 /*Style-text-cards */
 .card-17 .card-body .card-text-17, .card-16 .card-body .card-text-elfenlied {
   font-style: normal !important;
-  font-size: 23px !important;
+  font-size: 19px !important;
   color: white !important;
 }
 
@@ -101,7 +101,7 @@ header .navbar .logo {
 }
 
 /*tanda-2016*/
-/*Peimwe Anime Doblado en 2016 
+/*Primwe Anime Doblado en 2016 
 Por crunchyroll ELFEN LIED */
 .sub-titulo-box {
   height: auto;
@@ -134,7 +134,7 @@ Por crunchyroll ELFEN LIED */
 }
 .viz .logox {
   height: auto;
-  width: 55%;
+  width: 30%;
 }
 .viz .carousel {
   height: auto;

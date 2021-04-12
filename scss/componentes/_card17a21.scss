@@ -3,40 +3,24 @@
 .tanda-2019,
 .tanda-2020,
 .tanda-2020 {
-   
-    @extend %style-tanda ; 
+  @extend %style-tanda;
 }
 
-
-
-
-
 .card-17 {
-    // width: 40%;
-    height: auto;
+  // width: 40%;
+  height: auto;
 
-    padding: 4%;
+  padding: 4%;
 
-    background-color: transparent !important;
+  background-color: transparent !important;
 
-    .card-body {
-
-
-        .card-title-17 {
-            @extend %style-title-cards ; 
-
-
-          
-
-
-        }
-
-        .card-text-17 {
-
-            @extend %style-text-cards ; 
-         
-        }
-
+  .card-body {
+    .card-title-17 {
+      @extend %style-title-cards;
     }
 
+    .card-text-17 {
+      @extend %style-text-cards;
+    }
+  }
 }
