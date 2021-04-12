@@ -7,8 +7,13 @@
   box-sizing: border-box;
 }
 
+/*Efecto de escrol */
+html {
+  scroll-behavior: smooth;
+}
+
 /*Sub titulos " Tanda ' año ' */
-.stitulo h2 .numero {
+.stitulo h2 .numero, .stitulo h1 .numero {
   color: whitesmoke;
 }
 
@@ -160,7 +165,6 @@ Por crunchyroll ELFEN LIED */
   transform: scale(1.3);
 }
 
-/*Botones Más información */
 /*Magia de nico en el body */
 body {
   overflow-x: hidden;

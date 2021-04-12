@@ -12,13 +12,7 @@
   background-color: nth($colores, 1);
 
   .sociales-box {
-    // display: flex;
-
-    // justify-content: center;
-
-    // align-items: center;
-
-    // margin:  0  auto;
+    
 
     @extend %style-display-flex;
 
